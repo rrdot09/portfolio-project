@@ -1,13 +1,12 @@
 import Footer from './components/footer';
+import Landing from "./pages/Landing";
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        {/* existing content here */}
-      </div>
+    <>
+      <Landing />
       <Footer />
-    </div>
+    </>
   );
 }
 export default App;
