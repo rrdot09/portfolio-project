@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Gotu&family=Gruppo&display=swap");
+body {
+  background-color: #0B0C10;
+  font-family: "Gotu", sans-serif;
+}
+
+p, span {
+  font-family: "Gruppo", cursive;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=index.css.map */
