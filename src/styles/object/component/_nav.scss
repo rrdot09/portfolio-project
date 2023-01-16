@@ -1,0 +1,44 @@
+@import "../../mixins";
+@import "../../variables";
+
+.nav {
+    @include flex-center;
+    grid-gap: 0.4rem;
+    position: fixed;
+    top: 4.3rem;
+    left: 9.6rem;
+    height: 40px;
+
+}
+
+@mixin buttonLine {
+    display: inline-block;
+    width: 57px;
+    height: 10px;
+    background-color: $d4;
+}
+
+.nav_button {
+    @include buttonLine;
+    position: relative;
+}
+
+.nav_button::before {
+    content: "";
+    @include buttonLine;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.nav_button::after {
+    content: "";
+    @include buttonLine;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+.nav_header {
+    text-transform: uppercase;
+}
