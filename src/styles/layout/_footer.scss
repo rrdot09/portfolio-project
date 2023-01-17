@@ -5,6 +5,21 @@
     grid-gap: 2rem;
     margin: 48px 0 51px;
 
-}
+};
+@media (max-width: 428px) {
 
-;
+    .icon {
+        width: 27.62px;
+        height: 27.86px;
+    }
+
+    .images-container {
+        width: 200px;
+        height: 27.86px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+}
