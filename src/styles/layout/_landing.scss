@@ -1,0 +1,41 @@
+@import "../variables";
+@import "../mixins";
+
+.landing-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rectangle-container {
+    position: relative;
+    height: 383px;
+    width: 398px;
+    margin: 0 auto;
+    border: 3px solid $d3;
+}
+
+.rectangle {
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+.content-container {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.title {
+
+    font-size: 96px;
+
+    text-align: center;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 30px;
+}
