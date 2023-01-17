@@ -1,11 +1,9 @@
-import Footer from './components/footer';
-import Landing from "./pages/Landing";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
     <>
-      <Landing />
-      <Footer />
+      <Projects />
     </>
   );
 }

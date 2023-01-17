@@ -3,7 +3,7 @@ body {
   background-color: #0B0C10;
   font-family: "Gotu", sans-serif;
   color: #66FCF1;
-  margin: 2.1rem 2.5rem 9.6rem;
+  margin: 2.1rem 9.6rem 2.5rem;
 }
 
 p, span, li {
@@ -119,4 +119,114 @@ button {
 
 .nav_header {
   text-transform: uppercase;
+}
+
+.landing-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rectangle-container {
+  position: relative;
+  height: 383px;
+  width: 398px;
+  margin: 0 auto;
+  border: 3px solid #FFFFFF;
+}
+
+.rectangle {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.content-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 96px;
+  text-align: center;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+}
+
+.card-container {
+  display: flex;
+  width: 391px;
+  height: 255px;
+  left: 150px;
+  top: 209px;
+  background: #202833;
+  border-radius: 10px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.card-header {
+  width: 331px;
+  height: 60px;
+  margin-top: 44px;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.card-body {
+  width: 334px;
+  height: 65px;
+  font-size: 26px;
+  margin-top: 14px;
+  margin-left: 30px;
+  margin-bottom: 9px;
+  text-align: left;
+}
+
+.card-tools {
+  color: #C4C6C8;
+  display: flex;
+  align-items: center;
+  width: 334px;
+  height: 65px;
+}
+
+.card-button {
+  box-sizing: border-box;
+  width: 331px;
+  height: 41px;
+  background: transparent;
+  border: 1px solid #45A29F;
+  border-radius: 10px;
+  margin-top: 9px;
+}
+
+.button {
+  width: 141px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  background-color: transparent;
+  margin-top: 11px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=index.css.map */
