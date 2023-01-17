@@ -3,12 +3,18 @@ body {
   background-color: #0B0C10;
   font-family: "Gotu", sans-serif;
   color: #66FCF1;
-  margin: 2.1rem 2.5rem 9.6rem;
+  margin: 27px 150px 53px;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 p, span, li {
   font-family: "Gruppo", cursive;
   color: #FFFFFF;
+}
+
+li {
+  margin-left: 30px;
 }
 
 button {
@@ -74,6 +80,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px;
 }
 
 .nav {
@@ -85,6 +92,7 @@ button {
   top: 4.3rem;
   left: 9.6rem;
   height: 40px;
+  background-color: #0B0C10;
 }
 
 .nav_button {
@@ -119,4 +127,103 @@ button {
 
 .nav_header {
   text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+  grid-row-gap: 60px;
+  grid-template-areas: "a a b b c c d d e e f f" "g g h h i i j j k k l l" ". . . m m n n o o . . .";
+}
+
+.grid_item.a {
+  grid-area: a;
+}
+
+.grid_item.b {
+  grid-area: b;
+}
+
+.grid_item.c {
+  grid-area: c;
+}
+
+.grid_item.d {
+  grid-area: d;
+}
+
+.grid_item.e {
+  grid-area: e;
+}
+
+.grid_item.f {
+  grid-area: f;
+}
+
+.grid_item.g {
+  grid-area: g;
+}
+
+.grid_item.h {
+  grid-area: h;
+}
+
+.grid_item.i {
+  grid-area: i;
+}
+
+.grid_item.j {
+  grid-area: j;
+}
+
+.grid_item.k {
+  grid-area: k;
+}
+
+.grid_item.l {
+  grid-area: l;
+}
+
+.grid_item.m {
+  grid-area: m;
+}
+
+.grid_item.n {
+  grid-area: n;
+}
+
+.grid_item.o {
+  grid-area: o;
+}
+
+.u-mb-10 {
+  margin-bottom: 10px;
+}
+
+.u-mb-20 {
+  margin-bottom: 20px;
+}
+
+.u-mb-30 {
+  margin-bottom: 30px;
+}
+
+.u-mb-40 {
+  margin-bottom: 40px;
+}
+
+.u-mb-50 {
+  margin-bottom: 50px;
+}
+
+.u-mb-60 {
+  margin-bottom: 60px;
+}
+
+.u-mb-70 {
+  margin-bottom: 70px;
+}
+
+.u-mb-80 {
+  margin-bottom: 80px;
 }/*# sourceMappingURL=index.css.map */

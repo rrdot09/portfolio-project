@@ -8,12 +8,18 @@ body {
     background-color: $d1;
     font-family: 'Gotu', sans-serif;
     color: $d4;
-    margin: 2.1rem 2.5rem 9.6rem;
+    margin: 27px 150px 53px;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 p, span, li {
     font-family: 'Gruppo', cursive;
     color: $d3;
+}
+
+li {
+    margin-left: 30px;
 }
 
 button {

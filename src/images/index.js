@@ -1,0 +1,15 @@
+export const AmazonLogo = require("./skills/amazon-web-services-aws.png");
+export const SQLLogo = require("./skills/database-sql.png");
+export const ExpressLogo = require("./skills/express-original.png");
+export const FigmaLogo = require("./skills/figma-logo.png");
+export const CSSLogo = require("./skills/file-css.png");
+export const GITLogo = require("./skills/git.png");
+export const GraphqlLogo = require("./skills/graphql.png");
+export const HTMLLogo = require("./skills/html-five.png");
+export const JSLogo = require("./skills/java-script.png");
+export const KOALogo = require("./skills/koa.png");
+export const MongoDBLogo = require("./skills/mongodb-icon.png");
+export const NextJSLogo = require("./skills/next-js.png");
+export const NodeJSLogo = require("./skills/node-js.png");
+export const ReactJSLogo = require("./skills/reactjs-fill.png");
+export const ShopifyLogo = require("./skills/shopify.png");
