@@ -8,6 +8,10 @@
         ". . . m m n n o o . . .";
 }
 
+.grid_item {
+    width: 100px;
+}
+
 .grid_item.a {
     grid-area: a;
 }
@@ -66,4 +70,19 @@
 
 .grid_item.o {
     grid-area: o;
+}
+
+@media (max-width: 428px) {
+    .grid {
+        grid-template-areas: 
+        "a b c"
+        "d e f"
+        "g h i"
+        "j k l"
+        "m n o";
+    }
+    .grid_item {
+        width: 48px;
+        height: 48px;
+    }
 }

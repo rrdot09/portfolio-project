@@ -17,6 +17,11 @@
     width: 57px;
     height: 10px;
     background-color: $d4;
+
+    @media (max-width: 428px) {
+        height: 6.25px;
+        width: 35.63px;
+    }
 }
 
 .nav_button {
@@ -42,4 +47,17 @@
 
 .nav_header {
     text-transform: uppercase;
+}
+
+@media (max-width: 428px) {
+    .nav {
+        top: 38px;
+        left: 30px;
+    }
+    .nav_button::before {
+        top: 9.38px;
+    }
+    .nav_button::after {
+        bottom: 9.38px;
+    }
 }

@@ -22,6 +22,12 @@ button {
   border: none;
 }
 
+@media (max-width: 428px) {
+  body {
+    margin: 30px 50px;
+    font-size: 16px;
+  }
+}
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -102,6 +108,12 @@ button {
   background-color: #66FCF1;
   position: relative;
 }
+@media (max-width: 428px) {
+  .nav_button {
+    height: 6.25px;
+    width: 35.63px;
+  }
+}
 
 .nav_button::before {
   content: "";
@@ -112,6 +124,12 @@ button {
   position: absolute;
   top: 15px;
   left: 0;
+}
+@media (max-width: 428px) {
+  .nav_button::before {
+    height: 6.25px;
+    width: 35.63px;
+  }
 }
 
 .nav_button::after {
@@ -124,16 +142,38 @@ button {
   bottom: 15px;
   left: 0;
 }
+@media (max-width: 428px) {
+  .nav_button::after {
+    height: 6.25px;
+    width: 35.63px;
+  }
+}
 
 .nav_header {
   text-transform: uppercase;
 }
 
+@media (max-width: 428px) {
+  .nav {
+    top: 38px;
+    left: 30px;
+  }
+  .nav_button::before {
+    top: 9.38px;
+  }
+  .nav_button::after {
+    bottom: 9.38px;
+  }
+}
 .grid {
   display: grid;
   place-items: center;
   grid-row-gap: 60px;
   grid-template-areas: "a a b b c c d d e e f f" "g g h h i i j j k k l l" ". . . m m n n o o . . .";
+}
+
+.grid_item {
+  width: 100px;
 }
 
 .grid_item.a {
@@ -196,6 +236,26 @@ button {
   grid-area: o;
 }
 
+@media (max-width: 428px) {
+  .grid {
+    grid-template-areas: "a b c" "d e f" "g h i" "j k l" "m n o";
+  }
+  .grid_item {
+    width: 48px;
+    height: 48px;
+  }
+}
+.siteLogo {
+  width: 138px;
+  height: 138px;
+}
+
+@media (max-width: 428px) {
+  .siteLogo {
+    width: 82px;
+    height: 74px;
+  }
+}
 .u-mb-10 {
   margin-bottom: 10px;
 }
