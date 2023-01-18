@@ -1,0 +1,11 @@
+.siteLogo {
+    width: 138px;
+    height: 138px;
+}
+
+@media (max-width: 428px) {
+    .siteLogo {
+        width: 82px;
+        height: 74px;
+    }
+}
