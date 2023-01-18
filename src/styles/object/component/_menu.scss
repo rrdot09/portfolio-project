@@ -1,0 +1,35 @@
+@import "../../mixins";
+
+.menu {
+    background-color: $d6;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: grid;
+    grid-template-areas: 
+        "home about"
+        "home projects"
+    ;
+}
+
+.menu_item {
+    cursor: pointer;
+    @include flex-center
+}
+
+.menu_item.home {
+    grid-area: home;
+}
+
+.menu_item.about {
+    grid-area: about;
+    background-color: $d5;
+}
+
+.menu_item.projects {
+    grid-area: projects;
+    background-color: $d1;
+}
