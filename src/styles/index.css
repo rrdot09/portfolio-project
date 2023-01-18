@@ -177,86 +177,18 @@ button {
     display: none;
   }
 }
-.grid {
-  display: grid;
-  place-items: center;
-  grid-row-gap: 60px;
-  grid-template-areas: "a a b b c c d d e e f f" "g g h h i i j j k k l l" ". . . m m n n o o . . .";
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-gap: 6rem;
 }
 
-.grid_item {
-  width: 100px;
+.flex_item {
+  width: 6.2rem;
 }
 
-.grid_item.a {
-  grid-area: a;
-}
-
-.grid_item.b {
-  grid-area: b;
-}
-
-.grid_item.c {
-  grid-area: c;
-}
-
-.grid_item.d {
-  grid-area: d;
-}
-
-.grid_item.e {
-  grid-area: e;
-}
-
-.grid_item.f {
-  grid-area: f;
-}
-
-.grid_item.g {
-  grid-area: g;
-}
-
-.grid_item.h {
-  grid-area: h;
-}
-
-.grid_item.i {
-  grid-area: i;
-}
-
-.grid_item.j {
-  grid-area: j;
-}
-
-.grid_item.k {
-  grid-area: k;
-}
-
-.grid_item.l {
-  grid-area: l;
-}
-
-.grid_item.m {
-  grid-area: m;
-}
-
-.grid_item.n {
-  grid-area: n;
-}
-
-.grid_item.o {
-  grid-area: o;
-}
-
-@media (max-width: 428px) {
-  .grid {
-    grid-template-areas: "a b c" "d e f" "g h i" "j k l" "m n o";
-  }
-  .grid_item {
-    width: 48px;
-    height: 48px;
-  }
-}
 .siteLogo {
   width: 10vw;
   position: relative;

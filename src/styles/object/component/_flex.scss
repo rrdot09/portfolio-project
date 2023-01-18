@@ -1,0 +1,11 @@
+@import "../../mixins";
+
+.flex {
+    @include flex-center;
+    flex-wrap: wrap;
+    grid-gap: 6rem;
+}
+
+.flex_item {
+    width: 6.2rem;
+}
