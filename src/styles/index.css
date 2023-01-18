@@ -68,8 +68,9 @@ button {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  padding: 4.2rem 0;
   background-color: #0B0C10;
+  padding: 3.2rem 0;
+  overflow: hidden;
 }
 
 .nav {
@@ -79,6 +80,8 @@ button {
   grid-gap: 0.4rem;
   height: 2.2rem;
   background-color: #0B0C10;
+  cursor: pointer;
+  position: relative;
 }
 
 .nav_button {
@@ -166,6 +169,48 @@ button {
 @media (max-width: 428px) {
   .siteLogo {
     width: 20vw;
+  }
+}
+.menu {
+  background-color: #202833;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: grid;
+  grid-template-areas: "home about" "home projects";
+}
+
+.menu_item {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_item img {
+  width: 18rem;
+}
+
+.menu_item.home {
+  grid-area: home;
+}
+
+.menu_item.about {
+  grid-area: about;
+  background-color: #45A29F;
+}
+
+.menu_item.projects {
+  grid-area: projects;
+  background-color: #0B0C10;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    grid-template-areas: "home" "about" "projects";
   }
 }
 .u-mb-10 {

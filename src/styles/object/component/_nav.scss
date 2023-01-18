@@ -6,7 +6,9 @@
     grid-gap: 0.4rem;
     height: 2.2rem;
     background-color: $d1;
-
+    cursor: pointer;
+    position: relative;
+    
 }
 
 @mixin buttonLine {
