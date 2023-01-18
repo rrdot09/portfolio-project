@@ -8,7 +8,7 @@ import gmail from '../images/social-icons/gmail.png'
   
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="footer-container">
             <div className="images-container">
                 <img src={instagram} alt="instagram" className='instagram icon' key={instagram}/>
                 <img src={twitter} alt="twitter" className='twitter icon' key={twitter}/>
