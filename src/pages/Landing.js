@@ -1,12 +1,12 @@
 import React from 'react';
-import HeaderSection from '../components/Header';
-import FooterSection from '../components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 const Landing = () => {
   return (
     <>
-    <HeaderSection />
+    <Header />
 
     <div className="landing-page-container">
       <div className="rectangle-container">
@@ -20,7 +20,7 @@ const Landing = () => {
       </div>
     </div>
 
-    <FooterSection />
+    <Footer />
     </>
 
   );
