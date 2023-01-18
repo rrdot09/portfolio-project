@@ -4,18 +4,15 @@
 .nav {
     @include flex-center;
     grid-gap: 0.4rem;
-    position: fixed;
-    top: 4.3rem;
-    left: 9.6rem;
-    height: 40px;
+    height: 2.2rem;
     background-color: $d1;
 
 }
 
 @mixin buttonLine {
     display: inline-block;
-    width: 57px;
-    height: 10px;
+    width: 3.4rem;
+    height: 0.5rem;
     background-color: $d4;
 
     @media (max-width: 428px) {
@@ -50,14 +47,13 @@
 }
 
 @media (max-width: 428px) {
-    .nav {
-        top: 38px;
-        left: 30px;
-    }
     .nav_button::before {
         top: 9.38px;
     }
     .nav_button::after {
         bottom: 9.38px;
+    }
+    .nav_header {
+        display: none;
     }
 }
