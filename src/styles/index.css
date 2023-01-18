@@ -87,6 +87,7 @@ button {
     width: 200px;
     height: 27.86px;
     margin: 0 auto;
+    margin-bottom: 32.14px;
   }
   .icon {
     width: 27.62px;
@@ -353,6 +354,7 @@ button {
     height: 296px;
     left: 54px;
     top: 539px;
+    margin-bottom: 31px;
   }
   .rectangle-container {
     width: 310px;
@@ -365,6 +367,7 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  margin-bottom: 55.74px;
 }
 
 .card-container {
