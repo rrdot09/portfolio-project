@@ -4,6 +4,10 @@
 
 @import "../variables";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $d1;
     font-family: 'Gotu', sans-serif;

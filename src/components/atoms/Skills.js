@@ -14,7 +14,7 @@ import {
   NodeJSLogo,
   ReactJSLogo,
   ShopifyLogo,
-} from "../images";
+} from "../../images";
 
 export default function Skills() {
   return (

@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
-import Home from "../images/nav-icons/home.png";
-import About from "../images/nav-icons/about.png";
-import Projects from "../images/nav-icons/projects.png";
+import Home from "../../images/nav-icons/home.png";
+import About from "../../images/nav-icons/about.png";
+import Projects from "../../images/nav-icons/projects.png";
 import { NavLink } from "react-router-dom";
 
 export default function NavigationBar() {
