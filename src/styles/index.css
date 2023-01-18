@@ -67,6 +67,10 @@ button {
   border-radius: 0px;
 }
 
+.footer-container {
+  text-align: center;
+}
+
 .images-container {
   display: flex;
   align-items: center;
@@ -76,16 +80,18 @@ button {
 }
 
 @media (max-width: 428px) {
+  .images-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 27.86px;
+    margin: 0 auto;
+  }
   .icon {
     width: 27.62px;
     height: 27.86px;
-  }
-  .images-container {
-    width: 200px;
-    height: 27.86px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 0 auto;
   }
 }
 .header {
@@ -334,11 +340,11 @@ button {
   .title {
     font-size: 32px;
     line-height: 53px;
-    width: 428px;
     height: 53px;
     display: flex;
     margin-top: 34px;
     margin-bottom: 31px;
+    width: none;
   }
   .description {
     font-size: 21px;
