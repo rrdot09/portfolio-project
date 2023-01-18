@@ -7,6 +7,8 @@
     height: 2.2rem;
     background-color: $d1;
     cursor: pointer;
+    position: relative;
+    padding: 2rem 0;
 }
 
 @mixin buttonLine {

@@ -20,6 +20,10 @@
     @include flex-center
 }
 
+.menu_item img {
+    width: 18rem;
+}
+
 .menu_item.home {
     grid-area: home;
 }
@@ -32,4 +36,14 @@
 .menu_item.projects {
     grid-area: projects;
     background-color: $d1;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        grid-template-areas: 
+            "home"
+            "about"
+            "projects"
+        ;
+    }
 }

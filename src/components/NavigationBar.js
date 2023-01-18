@@ -11,7 +11,7 @@ export default function NavigationBar() {
     setShowMenu(true);
   };
 
-  useEffect(() => {
+  useEffect((showMenu) => {
     if (showMenu) {
       document.body.style.overflow = "hidden";
     }
@@ -26,19 +26,19 @@ export default function NavigationBar() {
       {showMenu && (
         <div className="menu">
           <div className="menu_item home">
-            <NavLink exact to="/" activeClassName="active">
+            <NavLink exact="true" to="/">
               <img src={Home} alt="" />
             </NavLink>
           </div>
 
           <div className="menu_item about">
-            <NavLink exact to="/about" activeClassName="active">
+            <NavLink exact="true" to="/about">
               <img src={About} alt="" />
             </NavLink>
           </div>
 
           <div className="menu_item projects">
-            <NavLink exact to="/projects" activeClassName="active">
+            <NavLink exact="true" to="/projects">
               <img src={Projects} alt="" />
             </NavLink>
           </div>
