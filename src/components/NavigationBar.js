@@ -11,7 +11,7 @@ export default function NavigationBar() {
     setShowMenu(true);
   };
 
-  useEffect(() => {
+  useEffect((showMenu) => {
     if (showMenu) {
       document.body.style.overflow = "hidden";
     }
