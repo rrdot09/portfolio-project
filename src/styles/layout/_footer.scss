@@ -1,25 +1,27 @@
+.footer-container {
+    text-align: center;
+}
+
 .images-container {
     display: flex;
     align-items: center;
     justify-content: center;
     grid-gap: 2rem;
     margin: 48px 0 51px;
+}
 
-};
 @media (max-width: 428px) {
-
+    .images-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 27.86px;
+        margin: 0 auto;
+    }
     .icon {
         width: 27.62px;
         height: 27.86px;
+        margin: 0 auto;
     }
-
-    .images-container {
-        width: 200px;
-        height: 27.86px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-    }
-
 }
