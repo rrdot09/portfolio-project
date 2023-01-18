@@ -14,6 +14,7 @@
     width: 398px;
     margin: 0 auto;
     border: 3px solid $d3;
+
 }
 
 .rectangle {
@@ -29,13 +30,41 @@
 }
 
 .title {
-
-    font-size: 96px;
-
+    font-size: 6rem;
     text-align: center;
+
+
 }
 
 .description {
     font-weight: 400;
     font-size: 30px;
+
+
+}
+
+@media (max-width: 428px) {
+    .title {
+        font-size: 32px;
+        line-height: 53px;
+        width: 428px;
+        height: 53px;
+        display: flex;
+        margin-top: 34px;
+        margin-bottom: 31px;
+    }
+    .description {
+        font-size: 21px;
+        line-height: 20px;
+        width: 320px;
+        height: 296px;
+        left: 54px;
+        top: 539px;
+    }
+    .rectangle-container {
+        width: 310px;
+        height: 307px;
+        margin: 0 auto;
+        border: 3px solid $d3;
+    }
 }

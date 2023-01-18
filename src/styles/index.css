@@ -82,6 +82,19 @@ button {
   margin: 48px 0 51px;
 }
 
+@media (max-width: 428px) {
+  .icon {
+    width: 27.62px;
+    height: 27.86px;
+  }
+  .images-container {
+    width: 200px;
+    height: 27.86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .header {
   display: flex;
   justify-content: center;
@@ -314,7 +327,7 @@ button {
 }
 
 .title {
-  font-size: 96px;
+  font-size: 6rem;
   text-align: center;
 }
 
@@ -323,6 +336,31 @@ button {
   font-size: 30px;
 }
 
+@media (max-width: 428px) {
+  .title {
+    font-size: 32px;
+    line-height: 53px;
+    width: 428px;
+    height: 53px;
+    display: flex;
+    margin-top: 34px;
+    margin-bottom: 31px;
+  }
+  .description {
+    font-size: 21px;
+    line-height: 20px;
+    width: 320px;
+    height: 296px;
+    left: 54px;
+    top: 539px;
+  }
+  .rectangle-container {
+    width: 310px;
+    height: 307px;
+    margin: 0 auto;
+    border: 3px solid #FFFFFF;
+  }
+}
 .card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
