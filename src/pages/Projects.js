@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderSection from "../components/Header";
-import FooterSection from "../components/footer";
+import FooterSection from "../components/Footer";
 
 const Projects = () => {
   return (
