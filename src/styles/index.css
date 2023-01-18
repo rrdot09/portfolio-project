@@ -103,6 +103,7 @@ button {
   position: sticky;
   top: 0;
   background-color: #0B0C10;
+  padding: 3.2rem 0;
 }
 
 .nav {
@@ -113,6 +114,8 @@ button {
   height: 2.2rem;
   background-color: #0B0C10;
   cursor: pointer;
+  position: relative;
+  padding: 2rem 0;
 }
 
 .nav_button {
@@ -192,8 +195,8 @@ button {
 
 .siteLogo {
   width: 10vw;
-  position: relative;
-  left: 40%;
+  position: absolute;
+  left: 50%;
   transform: translateX(-50%);
 }
 
@@ -221,6 +224,10 @@ button {
   align-items: center;
 }
 
+.menu_item img {
+  width: 18rem;
+}
+
 .menu_item.home {
   grid-area: home;
 }
@@ -235,6 +242,11 @@ button {
   background-color: #0B0C10;
 }
 
+@media (max-width: 768px) {
+  .menu {
+    grid-template-areas: "home" "about" "projects";
+  }
+}
 .u-mb-10 {
   margin-bottom: 10px;
 }
