@@ -1,7 +1,7 @@
 .siteLogo {
     width: 10vw;
-    position: relative;
-    left: calc(50% - 10%);
+    position: absolute;
+    left: 50%;
     transform: translateX(-50%);
 }
 
