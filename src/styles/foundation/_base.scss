@@ -8,8 +8,7 @@ body {
     background-color: $d1;
     font-family: 'Gotu', sans-serif;
     color: $d4;
-    margin: 27px 150px 53px;
-    font-size: 24px;
+    margin: 3% 10%;
     font-weight: 400;
 }
 
@@ -25,11 +24,4 @@ li {
 button {
     cursor: pointer;
     border: none;
-}
-
-@media (max-width: 428px) {
-    body {
-        margin: 30px 50px;
-        font-size: 16px;
-    }
 }
