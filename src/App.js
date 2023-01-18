@@ -1,6 +1,6 @@
-import Projects from "./pages/Projects";
-import About from "./pages/About";
-import Landing from "./pages/Landing";
+import Projects from "./components/pages/Projects";
+import About from "./components/pages/About";
+import Landing from "./components/pages/Landing";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

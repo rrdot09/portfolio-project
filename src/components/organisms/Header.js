@@ -1,5 +1,5 @@
-import Logo from "./Logo";
-import NavigationBar from "./NavigationBar";
+import Logo from "../atoms/Logo";
+import NavigationBar from "../molecules/NavigationBar";
 
 export default function Header() {
   return (
