@@ -1,11 +1,12 @@
 .siteLogo {
-    width: 138px;
-    height: 138px;
+    width: 10vw;
+    position: relative;
+    left: calc(50% - 10%);
+    transform: translateX(-50%);
 }
 
 @media (max-width: 428px) {
     .siteLogo {
-        width: 82px;
-        height: 74px;
+        width: 20vw;
     }
 }
