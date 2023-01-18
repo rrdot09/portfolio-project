@@ -108,6 +108,7 @@ button {
   top: 0;
   background-color: #0B0C10;
   padding: 3.2rem 0;
+  overflow: hidden;
 }
 
 .nav {
