@@ -3,7 +3,7 @@
 .card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 16px;
+    grid-gap: 20px;
 };
 
 .card-container {
@@ -12,7 +12,7 @@
     height: 255px;
     left: 150px;
     top: 209px;
-    background: #202833;
+    background: $d6;
     border-radius: 10px;
     text-align: center;
     flex-direction: column;
@@ -48,6 +48,9 @@
 }
 
 .card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-sizing: border-box;
     width: 331px;
     height: 41px;
@@ -76,4 +79,54 @@
     background-color: transparent;
     margin-top: 11px;
     color: $d3;
+}
+
+@media (max-width: 428px) {
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row: 21px;
+    }
+
+    ;
+
+    .card-container {
+        width: 328.53px;
+        height: 214.26px;
+
+    }
+
+    ;
+    .card-header {
+        width: 278.12px;
+        height: 50.41px;
+        margin-top: 29px;
+        margin-left: 25px;
+    };
+
+    .card-body {
+        margin-top: 17.59;
+        margin-left: 26px;
+    }
+
+    .card-tools {
+        width: 280.64px;
+        height: 54.62px;
+        font-size: 20px;
+        margin-bottom: 9.71px;
+        text-align: left;
+    };
+
+    .card-button {
+        width: 278.12px;
+        height: 34.45px;
+    }
+
+    .button {
+        width: 118.47px;
+        height: 19.33px;
+        display: flex;
+        margin: auto;
+
+    }
 }
