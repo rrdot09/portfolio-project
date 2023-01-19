@@ -7,10 +7,9 @@ export default function NavigationBar() {
     <>
       <div className="landing-page-container">
         <PictureSize />
-        <Title
-          title={jsonData[0].landingPage[0].title}
-          content={jsonData[0].landingPage[0].content}
-        />
+        {jsonData[0].landingPage.map((item) => {
+          return <Title content={item.content} title={item.title} />;
+        })}
       </div>
     </>
   );
