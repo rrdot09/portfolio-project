@@ -70,7 +70,7 @@
     {
         "projectsPage" : [
             {
-                "title" : "TITLE",
+                "title" : "API",
                 "desc" : "tech used:  react, node,mongodb, scss, etc"
             }
         ]

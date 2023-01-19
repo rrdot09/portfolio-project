@@ -5,6 +5,17 @@ export default function AllProjects() {
     <>
       <div className="card">
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </>
   );
