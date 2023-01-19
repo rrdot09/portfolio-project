@@ -19,7 +19,7 @@
 
 // Object
 // Component
-@import "./object/component/nav";
+@import "./object/component/navigation";
 @import "./object/component/flex";
 @import "./object/component/logo";
 @import "./object/component/menu";
@@ -28,8 +28,12 @@
 // Utility
 @import "./object/utility/margin";
 
-// Landing Page
-@import "../styles/layout/landing";
+// Profile Page
+@import "../styles/object/project/profile";
 
-// Project Page
-@import "../styles/layout/projects"
+// Buttons
+@import "../styles/object/component/buttons";
+
+// Card
+@import "../styles/object/component/card.scss";
+

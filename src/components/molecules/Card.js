@@ -5,11 +5,11 @@ import ProjectTitle from "../atoms/Project_Title";
 export default function Card() {
   return (
     <div className="card-container">
-          <ProjectTitle />
-        <div className="card-body">
-          <ProjectTools />
-          <ProjectButton />
-        </div>
+      <ProjectTitle />
+      <div className="card-body">
+        <ProjectTools />
+        <ProjectButton />
       </div>
+    </div>
   );
 }
