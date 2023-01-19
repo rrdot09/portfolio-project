@@ -1,0 +1,82 @@
+[
+    {
+        "landingPage" : [
+            {
+                "title" : "ONLINE PORTFOLIO",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec libero sollicitudin, tincidunt erat sed, fringilla leo. Phasellus ullamcorper, leo vitae ullamcorper elementum, arcu erat tempus metus, tincidunt cursus odio purus quis diam. In hac habitasse platea dictumst. Integer pretium dignissim dictum. Ut ac ornare nulla. In eget nunc id quam blandit gravida et eget turpis."
+            },
+            {
+                "title" : "ONLINE PORTFOLIO",
+                "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec libero sollicitudin, tincidunt erat sed, fringilla leo. Phasellus ullamcorper, leo vitae ullamcorper elementum, arcu erat tempus metus, tincidunt cursus odio purus quis diam. In hac habitasse platea dictumst. Integer pretium dignissim dictum. Ut ac ornare nulla. In eget nunc id quam blandit gravida et eget turpis."
+            }
+        ]
+    },
+    {
+        "aboutPage" : [
+            {
+                "title" : "EDUCATION",
+                "schools" : [
+                    {
+                        "name" : "University of Lorem Ipsum",
+                        "place" : "Cebu City",
+                        "program" : "Bachelor of Science Major in Computer Engineering - 2020"
+                    },
+                    {
+                        "name" : "Zuitt Coding Bootcamp - Philippines",
+                        "place" : "Quezon City",
+                        "program" : "Full-stack web development course graduate - 2021"
+                    }
+                ]
+            },
+            {
+                "title" : "AWARDS",
+                "awards" : [
+                    {
+                        "name" : "Nexseed Inc.",
+                        "award" : [
+                            "Award 1",
+                            "Award 2",
+                            "Award 3",
+                            "Award 4",
+                            "Award 5"
+                        ]
+                    },
+                    {
+                        "name" : "Zuitt Coding Bootcamp - Philippines",
+                        "award" : ["Best in capstone 2"]
+                    },
+                    {
+                        "name" : "University of Lorem Ipsum",
+                        "award" : ["Magna Cum Laude"]
+                    }
+                ]
+            },
+            {
+                "title" : "EXPERIENCE",
+                "experience" : [
+                    {
+                        "name" : "Nexseed Inc.",
+                        "experience" : [
+                            {
+                                "position" : "Software Engineer",
+                                "duration" : "March 2021 to Present",
+                                "desc" : "I worked on Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title" : "TECHNOLOGIES LEARNED"
+            }
+        ]
+    },
+    {
+        "projectsPage" : [
+            {
+                "title" : "TITLE",
+                "desc" : "tech used:  react, node,mongodb, scss, etc"
+            }
+        ]
+    }
+]
