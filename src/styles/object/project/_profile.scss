@@ -1,5 +1,5 @@
-@import "../variables";
-@import "../mixins";
+@import "../../variables";
+@import "../../mixins";
 
 .landing-page-container {
     display: flex;
@@ -31,6 +31,7 @@
 .title {
     font-size: 6rem;
     text-align: center;
+    font-style: normal;
 
 
 }

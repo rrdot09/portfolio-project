@@ -10,7 +10,7 @@ const Landing = () => {
     <Header />
     <OnlinePortfolio />
     <Footer />
-    </>
+    </> 
 
   );
 };

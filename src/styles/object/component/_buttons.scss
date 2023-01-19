@@ -1,0 +1,72 @@
+@import "../../variables";
+
+
+.card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 331px;
+    height: 41px;
+    background: transparent;
+    border: 1px solid $d5;
+    border-radius: 10px;
+    margin-top: 9px;
+};
+
+
+.nav_button {
+    @include buttonLine;
+    position: relative;
+}
+
+.nav_button::before {
+    content: "";
+    @include buttonLine;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.nav_button::after {
+    content: "";
+    @include buttonLine;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+}
+
+
+
+
+.button {
+    width: 141px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+    color: $d3;
+}
+
+@media (max-width: 428px) {
+
+    .card-button {
+        width: 278.12px;
+        height: 34.45px;
+    }
+
+    .button {
+        width: 118.47px;
+        height: 19.33px;
+        display: flex;
+        margin: auto;
+
+    }
+}

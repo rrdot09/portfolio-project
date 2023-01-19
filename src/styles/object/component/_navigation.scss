@@ -23,27 +23,6 @@
     }
 }
 
-.nav_button {
-    @include buttonLine;
-    position: relative;
-}
-
-.nav_button::before {
-    content: "";
-    @include buttonLine;
-    position: absolute;
-    top: 15px;
-    left: 0;
-}
-
-.nav_button::after {
-    content: "";
-    @include buttonLine;
-    position: absolute;
-    bottom: 15px;
-    left: 0;
-}
-
 .nav_header {
     text-transform: uppercase;
 }
