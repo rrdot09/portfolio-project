@@ -1,10 +1,13 @@
-import cardData from '../../card.json';
-
-
-export default function Title() {
+import jsonData from "../../data/data.json";
+ 
+ export default function Title() {
   return (
     <div className="card-header">
-      <h2>{cardData[0].projectsPage[0].title}</h2>
+      {jsonData[2].projectsPage.map((project, index) => {
+          return <div key={index}>
+            <h2>{project.title}</h2>
+          </div>;
+        })}
     </div>
   );
 }
