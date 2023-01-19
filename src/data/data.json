@@ -70,12 +70,8 @@
     {
         "projectsPage" : [
             {
-                "title" : "Ecommerce",
-                "tools" : "tech used:  react, node,mongodb, scss, etc"
-            },
-            {
-                "title" : "Social",
-                "tools" : "tech used:  react, node,mongodb, scss, etc"
+                "title" : "TITLE",
+                "desc" : "tech used:  react, node,mongodb, scss, etc"
             }
         ]
     }
